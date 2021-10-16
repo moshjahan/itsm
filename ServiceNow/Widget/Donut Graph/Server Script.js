@@ -32,7 +32,7 @@
 
   // Calculate percentage value
 	
-  var percentage = Math.round(currentCount / maximumCount * 100);
+  var percentage = Math.ceil(currentCount / maximumCount * 100);
 	
   data.graph = {};
   data.graph.value = percentage;
