@@ -19,7 +19,7 @@
     "hint":"Keep it short",
     "name":"caption_text",
     "section":"Presentation",
-    "default_value":"CAPTION",
+    "default_value":"P1/P2",
     "label":"Caption Text",
     "type":"string"
   },
@@ -35,7 +35,7 @@
     "hint":"Query for maximum count",
     "name":"maximum_count_query",
     "section":"Data",
-    "default_value":"active=true",
+    "default_value":"active=true^incident_stateNOT IN6,7^priorityIN1,2,3",
     "label":"Maximum Count Query",
     "type":"string"
   },
@@ -43,7 +43,7 @@
     "hint":"Query for current count",
     "name":"current_count_query",
     "section":"Data",
-    "default_value":"priority=1",
+    "default_value":"active=true^incident_stateNOT IN6,7^priorityIN1,2",
     "label":"Current Count Query",
     "type":"string"
   },
@@ -109,7 +109,7 @@
     "hint":"informational text",
     "name":"info_text",
     "section":"Presentation",
-    "default_value":"Lorem Ipsum",
+    "default_value":"Priority 1 and 2",
     "label":"Informational Text",
     "type":"string"
   },
